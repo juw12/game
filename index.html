@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games by Juwen Lie</title>
+  <meta name="description" content="Browser and Unity games by Juwen Lie: Teduh, Cozy Island, Townsquare 3D, VALE, Game Library and Hearthwood.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='9' width='26' height='15' rx='7' fill='%23f59e0b'/%3E%3Ccircle cx='22' cy='16.5' r='2' fill='%231c1917'/%3E%3Crect x='8' y='15.5' width='6' height='2' fill='%231c1917'/%3E%3Crect x='10' y='13.5' width='2' height='6' fill='%231c1917'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #fbf7f0;
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #e7e0d4;
+      --card: #ffffff;
+      --accent: #b45309;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #171412;
+        --ink: #f5f0e8;
+        --muted: #b8afa3;
+        --line: #2f2a25;
+        --card: #211d1a;
+        --accent: #f59e0b;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+    header { padding: 56px 0 24px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 8px; letter-spacing: -0.02em; }
+    .lede { color: var(--muted); max-width: 640px; margin: 0; }
+    h2 { font-size: 1.1rem; margin: 40px 0 14px; color: var(--muted); font-weight: 600; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; background: var(--line); }
+    .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .card h3 { margin: 0; font-size: 1.15rem; }
+    .tag { font-size: 0.78rem; color: var(--muted); }
+    .card p { margin: 0; color: var(--muted); flex: 1; }
+    .links { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.92rem; }
+    a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    a:hover, a:focus-visible { text-decoration: underline; }
+    a.play {
+      background: var(--accent);
+      color: var(--bg);
+      padding: 4px 12px;
+      border-radius: 999px;
+    }
+    footer { padding: 48px 0 40px; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <h1>Games</h1>
+    <p class="lede">Small games I build in the evenings: cozy browser games you can play right now, and two Unity projects. Everything here is free.</p>
+  </header>
+
+  <main class="wrap">
+    <h2>Play in your browser</h2>
+    <div class="grid">
+      <article class="card">
+        <a href="https://juw12.github.io/teduh/"><img src="media/teduh.jpg" alt="Teduh: floating sky islands with farms and wind turbines" loading="lazy"></a>
+        <div class="body">
+          <h3>Teduh</h3>
+          <span class="tag">Life sim · works offline</span>
+          <p>A cozy solarpunk life sim on floating islands: farm, fish, craft, run your island on sun and wind, and build the sky village with friends.</p>
+          <div class="links">
+            <a class="play" href="https://juw12.github.io/teduh/">Play</a>
+            <a href="https://github.com/juw12/teduh">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="https://juw12.github.io/portfolio/game/"><img src="media/cozy-island.jpg" alt="Cozy Island: a small 3D island with a cat" loading="lazy"></a>
+        <div class="body">
+          <h3>Cozy Island</h3>
+          <span class="tag">Relaxing 3D · for laptop breaks</span>
+          <p>Fish, garden, take tea-breathing breaks and rest your eyes, with Mochi the cat.</p>
+          <div class="links">
+            <a class="play" href="https://juw12.github.io/portfolio/game/">Play</a>
+            <a href="https://github.com/juw12/portfolio/tree/main/game">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="https://juw12.github.io/portfolio/game/townsquare/"><img src="media/townsquare-3d.jpg" alt="Townsquare 3D: a shared low-poly town" loading="lazy"></a>
+        <div class="body">
+          <h3>Townsquare 3D</h3>
+          <span class="tag">Shared town · phone and desktop</span>
+          <p>Claim land, run crops and workshops, and trade at a market that follows supply and demand.</p>
+          <div class="links">
+            <a class="play" href="https://juw12.github.io/portfolio/game/townsquare/">Play</a>
+            <a href="https://github.com/juw12/portfolio/tree/main/game/townsquare">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="https://juw12.github.io/projects/gamelib/"><img src="media/game-library.jpg" alt="Game Library: a grid of browser games" loading="lazy"></a>
+        <div class="body">
+          <h3>Game Library</h3>
+          <span class="tag">Collection · works offline</span>
+          <p>A searchable collection of small browser games by category, with a Surprise Me button.</p>
+          <div class="links">
+            <a class="play" href="https://juw12.github.io/projects/gamelib/">Play</a>
+            <a href="https://github.com/juw12/projects">Source</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <h2>Unity projects</h2>
+    <div class="grid">
+      <article class="card">
+        <a href="https://juw12.github.io/vale/"><img src="media/vale.jpg" alt="VALE: a glowing fairy forest" loading="lazy"></a>
+        <div class="body">
+          <h3>VALE</h3>
+          <span class="tag">Unity 6 + HDRP · first-person</span>
+          <p>Explore a fading fairy realm and collect five Lumenshards to restore it.</p>
+          <div class="links">
+            <a class="play" href="https://juw12.github.io/vale/">Open</a>
+            <a href="https://github.com/juw12/vale">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="https://juw12.github.io/hearthwood/"><img src="media/hearthwood.jpg" alt="Hearthwood: a low-poly medieval village" loading="lazy"></a>
+        <div class="body">
+          <h3>Hearthwood</h3>
+          <span class="tag">Unity 6 + URP · prototype</span>
+          <p>A third-person action-adventure prototype in a medieval village, with dialogue, quests, inventory and NPC AI.</p>
+          <div class="links">
+            <a class="play" href="https://juw12.github.io/hearthwood/">Open</a>
+            <a href="https://github.com/juw12/hearthwood">Source</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="wrap">
+    By <a href="https://github.com/juw12">Juwen Lie</a> · <a href="https://juwenlie.pages.dev/">Portfolio</a> · MIT licensed
+  </footer>
+</body>
+</html>
