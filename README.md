@@ -8,6 +8,8 @@ A hub page for my games: **https://juw12.github.io/game/**
 | Cozy Island | Relaxing 3D island for laptop breaks, with Mochi the cat | [Play](https://juw12.github.io/portfolio/game/) | [portfolio/game](https://github.com/juw12/portfolio/tree/main/game) |
 | Townsquare 3D | Shared 3D town with crops, workshops and a supply-and-demand market | [Play](https://juw12.github.io/portfolio/game/townsquare/) | [portfolio/game/townsquare](https://github.com/juw12/portfolio/tree/main/game/townsquare) |
 | Game Library | Searchable collection of small browser games | [Play](https://juw12.github.io/projects/gamelib/) | [juw12/projects](https://github.com/juw12/projects) |
+| Mise | Cozy cooking game with live-synthesised ASMR: cook at home or run a small restaurant (browser, offline) | [Play](https://juw12.github.io/mise/) | [juw12/mise](https://github.com/juw12/mise) |
+| Bilas | Quiet first-person 3D coin laundry with synthesized sound (browser, PWA, Android) | [Play](https://juw12.github.io/bilas/) | [juw12/bilas](https://github.com/juw12/bilas) |
 | VALE | First-person fairy-world explorer (Unity 6 + HDRP) | [Open](https://juw12.github.io/vale/) | [juw12/vale](https://github.com/juw12/vale) |
 | Hearthwood | Third-person medieval village prototype (Unity 6 + URP) | [Open](https://juw12.github.io/hearthwood/) | [juw12/hearthwood](https://github.com/juw12/hearthwood) |
 
